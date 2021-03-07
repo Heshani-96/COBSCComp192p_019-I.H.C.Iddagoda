@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,20 @@
 		541726BF25EB6DA700DDD175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541726BD25EB6DA700DDD175 /* Main.storyboard */; };
 		541726C125EB6DAC00DDD175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541726C025EB6DAC00DDD175 /* Assets.xcassets */; };
 		541726C425EB6DAC00DDD175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541726C225EB6DAC00DDD175 /* LaunchScreen.storyboard */; };
+		5444F01025F4BB79009512E6 /* restaurentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5444F00F25F4BB79009512E6 /* restaurentTableViewCell.swift */; };
+		5444F01325F4C0B7009512E6 /* foodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5444F01225F4C0B7009512E6 /* foodViewController.swift */; };
+		5444F01625F4D2F8009512E6 /* foodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5444F01525F4D2F8009512E6 /* foodDetailViewController.swift */; };
+		5444F01B25F4FB32009512E6 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5444F01A25F4FB32009512E6 /* registerViewController.swift */; };
+		5444F01E25F4FB42009512E6 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5444F01D25F4FB42009512E6 /* loginViewController.swift */; };
+		5444F02125F4FB53009512E6 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5444F02025F4FB53009512E6 /* welcomeViewController.swift */; };
+		5444F02625F531B4009512E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5444F02525F531B4009512E6 /* GoogleService-Info.plist */; };
+		5444F03925F54C8C009512E6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5444F03825F54C8C009512E6 /* Utilities.swift */; };
+		9F3A00E943C5769B3CFE88DF /* Pods_CafeNIBM_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A696667EB285F24F0171C5EB /* Pods_CafeNIBM_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		124A4C37FC45E70AF66A1680 /* Pods-CafeNIBM_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeNIBM_1.release.xcconfig"; path = "Target Support Files/Pods-CafeNIBM_1/Pods-CafeNIBM_1.release.xcconfig"; sourceTree = "<group>"; };
+		5383654C00C980734FA568EE /* Pods-CafeNIBM_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeNIBM_1.debug.xcconfig"; path = "Target Support Files/Pods-CafeNIBM_1/Pods-CafeNIBM_1.debug.xcconfig"; sourceTree = "<group>"; };
 		541726B425EB6DA700DDD175 /* CafeNIBM_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeNIBM_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		541726B725EB6DA700DDD175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		541726B925EB6DA700DDD175 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		541726C025EB6DAC00DDD175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		541726C325EB6DAC00DDD175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		541726C525EB6DAC00DDD175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5444F00F25F4BB79009512E6 /* restaurentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurentTableViewCell.swift; sourceTree = "<group>"; };
+		5444F01225F4C0B7009512E6 /* foodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodViewController.swift; sourceTree = "<group>"; };
+		5444F01525F4D2F8009512E6 /* foodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodDetailViewController.swift; sourceTree = "<group>"; };
+		5444F01A25F4FB32009512E6 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		5444F01D25F4FB42009512E6 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		5444F02025F4FB53009512E6 /* welcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		5444F02525F531B4009512E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5444F03825F54C8C009512E6 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A696667EB285F24F0171C5EB /* Pods_CafeNIBM_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CafeNIBM_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3A00E943C5769B3CFE88DF /* Pods_CafeNIBM_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				541726B625EB6DA700DDD175 /* CafeNIBM_1 */,
 				541726B525EB6DA700DDD175 /* Products */,
+				E516EFF44EEFBF4C83746515 /* Pods */,
+				EE25B580C2B8A9E24778E01F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,56 @@
 		541726B625EB6DA700DDD175 /* CafeNIBM_1 */ = {
 			isa = PBXGroup;
 			children = (
+				5444F02325F4FB6A009512E6 /* Register and Login */,
+				5444F01825F4F833009512E6 /* Food */,
 				541726B725EB6DA700DDD175 /* AppDelegate.swift */,
 				541726B925EB6DA700DDD175 /* SceneDelegate.swift */,
 				541726BB25EB6DA700DDD175 /* ViewController.swift */,
+				5444F03825F54C8C009512E6 /* Utilities.swift */,
 				541726BD25EB6DA700DDD175 /* Main.storyboard */,
 				541726C025EB6DAC00DDD175 /* Assets.xcassets */,
 				541726C225EB6DAC00DDD175 /* LaunchScreen.storyboard */,
 				541726C525EB6DAC00DDD175 /* Info.plist */,
+				5444F02525F531B4009512E6 /* GoogleService-Info.plist */,
 			);
 			path = CafeNIBM_1;
+			sourceTree = "<group>";
+		};
+		5444F01825F4F833009512E6 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				5444F01525F4D2F8009512E6 /* foodDetailViewController.swift */,
+				5444F01225F4C0B7009512E6 /* foodViewController.swift */,
+				5444F00F25F4BB79009512E6 /* restaurentTableViewCell.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		5444F02325F4FB6A009512E6 /* Register and Login */ = {
+			isa = PBXGroup;
+			children = (
+				5444F01A25F4FB32009512E6 /* registerViewController.swift */,
+				5444F01D25F4FB42009512E6 /* loginViewController.swift */,
+				5444F02025F4FB53009512E6 /* welcomeViewController.swift */,
+			);
+			path = "Register and Login";
+			sourceTree = "<group>";
+		};
+		E516EFF44EEFBF4C83746515 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5383654C00C980734FA568EE /* Pods-CafeNIBM_1.debug.xcconfig */,
+				124A4C37FC45E70AF66A1680 /* Pods-CafeNIBM_1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE25B580C2B8A9E24778E01F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A696667EB285F24F0171C5EB /* Pods_CafeNIBM_1.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 541726C825EB6DAC00DDD175 /* Build configuration list for PBXNativeTarget "CafeNIBM_1" */;
 			buildPhases = (
+				F965BA1C94E8F7F7D77B3EE6 /* [CP] Check Pods Manifest.lock */,
 				541726B025EB6DA700DDD175 /* Sources */,
 				541726B125EB6DA700DDD175 /* Frameworks */,
 				541726B225EB6DA700DDD175 /* Resources */,
+				1C50BAFA88770CBE83D89B0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				541726C425EB6DAC00DDD175 /* LaunchScreen.storyboard in Resources */,
+				5444F02625F531B4009512E6 /* GoogleService-Info.plist in Resources */,
 				541726C125EB6DAC00DDD175 /* Assets.xcassets in Resources */,
 				541726BF25EB6DA700DDD175 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +199,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C50BAFA88770CBE83D89B0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CafeNIBM_1/Pods-CafeNIBM_1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CafeNIBM_1/Pods-CafeNIBM_1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CafeNIBM_1/Pods-CafeNIBM_1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F965BA1C94E8F7F7D77B3EE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CafeNIBM_1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		541726B025EB6DA700DDD175 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5444F01025F4BB79009512E6 /* restaurentTableViewCell.swift in Sources */,
 				541726BC25EB6DA700DDD175 /* ViewController.swift in Sources */,
 				541726B825EB6DA700DDD175 /* AppDelegate.swift in Sources */,
+				5444F02125F4FB53009512E6 /* welcomeViewController.swift in Sources */,
 				541726BA25EB6DA700DDD175 /* SceneDelegate.swift in Sources */,
+				5444F01E25F4FB42009512E6 /* loginViewController.swift in Sources */,
+				5444F01325F4C0B7009512E6 /* foodViewController.swift in Sources */,
+				5444F01625F4D2F8009512E6 /* foodDetailViewController.swift in Sources */,
+				5444F03925F54C8C009512E6 /* Utilities.swift in Sources */,
+				5444F01B25F4FB32009512E6 /* registerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +399,7 @@
 		};
 		541726C925EB6DAC00DDD175 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5383654C00C980734FA568EE /* Pods-CafeNIBM_1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +419,7 @@
 		};
 		541726CA25EB6DAC00DDD175 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124A4C37FC45E70AF66A1680 /* Pods-CafeNIBM_1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
